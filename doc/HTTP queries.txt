@@ -1,0 +1,3 @@
+curl -v -X GET http://localhost:8080/BanquetHall 
+
+curl -v -X POST -H "Content-Type: application/json" -d '{"name":"BH1"}' http://localhost:8080/BanquetHall
