@@ -15,7 +15,7 @@ import lombok.ToString;
 @ToString
 public class BanquetHall {
     @Id
-    private String id;
-    private String name;
-    private Integer size;
+    public String id;
+    public String name;
+    public Integer size;
 }
